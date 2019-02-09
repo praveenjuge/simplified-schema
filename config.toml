@@ -1,0 +1,27 @@
+baseURL = "https://simplified-schema.netlify.com"
+languageCode = "en-us"
+title = "Simplified Schema"
+
+enableRobotsTXT = true
+enableEmoji = true
+canonifyURLs = true
+enableGitInfo = true
+
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+pygmentsStyle = "manni"
+
+googleAnalytics = "UA-67220171-4"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+# Custom Params
+[params]
+  description = "A simple copy-pastable version of Schema.org's content."
+  ghrepo = "https://github.com/praveenjuge/simplified-schema/"
+  ogimage = "/images/og.png"
+
+# Markdown Settings
+[blackfriday]
+  hrefTargetBlank = true
+  nofollowLinks = true
+  noreferrerLinks = true

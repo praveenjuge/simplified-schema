@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container mb-3">
+    <h1 class="text-primary display-5">Simplified Schema</h1>
+    <p class="mb-3 text-muted">
+      A simple copy-pastable version of <a href="https://schema.org/" target="_blank">Schema.org</a>'s content.
+    </p>
+    <a class="btn btn-info" href="{{ $.Site.Params.ghrepo }}" role="button">Contribute on Github</a>
+    <a class="btn btn-outline-info" href="/about/" role="button">Learn more</a>
+  </div>
+</div>
+
+<section class="container">
+  <div class="row">
+    <div class="col-lg-3 order-lg-1 mb-5">{{ partial "schema-list" . }}</div>
+    <div class="col-md-9">
+      <div class="text-wrap">{{ .Content }}</div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

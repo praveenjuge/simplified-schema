@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="jumbotron jumbotron-fluid">
+  <div class="container text-center">
+    <h1 class="text-primary display-5">{{ .Title }}</h1>
+    <p class="mb-3 text-muted">{{ .Description }}</p>
+  </div>
+</div>
+<section class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-12 col-lg-5 mb-5">
+      {{ partial "schema-list" . }}
+    </div>
+  </div>
+</section>
+{{ end }}

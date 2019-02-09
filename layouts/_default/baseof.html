@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}" prefix="og: http://ogp.me/ns#">
+  <head itemscope itemtype="{{ .Site.BaseURL }}">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    {{ partial "meta" . }}
+  </head>
+
+  <body>
+    {{ partial "header" . }}
+    <main id="main" role="main" aria-role="main">
+      {{ block "main" . }}
+
+      {{ end }}
+    </main>
+    <!-- Using partialCached because the content in the partial will not change on any page https://gohugo.io/functions/partialcached/ -->
+    {{ partialCached "footer" . }}
+
+    {{ partialCached "googleanalytics" . }}
+  </body>
+</html>

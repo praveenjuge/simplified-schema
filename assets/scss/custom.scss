@@ -1,0 +1,38 @@
+//Code Block Improvements
+pre {
+  background-color: $light !important;
+  // Using !important to override the inline style
+  padding: 15px 5px 15px 15px;
+}
+
+// Type Improvements
+.text-wrap {
+  line-height: 1.7;
+
+  > :first-child {
+    margin-top: 0;
+  }
+
+  > {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin-top: 1.3em;
+    }
+  }
+
+  li {
+    padding: 3px 0px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  // table {
+  //   @extend .table, .table-bordered;
+  // }
+}

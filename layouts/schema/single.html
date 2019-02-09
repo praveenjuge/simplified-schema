@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="text-primary display-5">{{ .Title }}</h1>
+    <p class="mb-3 text-muted">{{ .Description }}</p>
+  </div>
+</div>
+<section class="container">
+  <div class="row">
+    <div class="col-md-9">
+      <div class="text-wrap">{{ .Content }}</div>
+      <div class="alert alert-info my-5" role="alert">
+        Anything missing? You can edit this page
+        <a href="{{.Site.Params.ghrepo}}edit/master/content/{{.File.Path}}" class="alert-link">here</a>.
+      </div>
+    </div>
+    <div class="col-lg-3 mb-5">{{ partial "schema-list" . }}</div>
+  </div>
+</section>
+{{ end }}
