@@ -4,16 +4,16 @@
 
 ## Available Schemas
 
-- Article
-- Breadcrumbs
-- Event
-- Job Posting
-- Local Business
-- Organization
-- Person
-- Product
-- Recipe
-- Website
+- [Article](https://simplified-schema.netlify.com/schema/article/)
+- [Breadcrumbs](https://simplified-schema.netlify.com/schema/breadcrumbs/)
+- [Event](https://simplified-schema.netlify.com/schema/event/)
+- [Job Posting](https://simplified-schema.netlify.com/schema/job-posting/)
+- [Local Business](https://simplified-schema.netlify.com/schema/local-business/)
+- [Organization](https://simplified-schema.netlify.com/schema/organization/)
+- [Person](https://simplified-schema.netlify.com/schema/person/)
+- [Product](https://simplified-schema.netlify.com/schema/product/)
+- [Recipe](https://simplified-schema.netlify.com/schema/recipe/)
+- [Website](https://simplified-schema.netlify.com/schema/website/)
 
 ## Quickstart
 
