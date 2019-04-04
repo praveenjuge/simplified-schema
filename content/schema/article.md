@@ -1,6 +1,6 @@
 ---
 title: "Article Schema"
-description: "Details about Article Schema."
+description: "An article schema could be used on many types of written content such as News Article, Blog Post, Scholarly Paper and much more. If done properly on a blog, this could improve your SEO results immensely."
 date: 2019-01-01 12:23:42 +0000
 schema: "Article"
 ---
