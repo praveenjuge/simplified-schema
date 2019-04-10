@@ -1,8 +1,10 @@
 <!-- Titles of the page -->
-<title itemprop="name">{{ .Title }}</title> <meta property="og:title" content="{{ .Title }}" />
-<meta name="twitter:title" content="{{ .Title }}" /> <meta itemprop="name" content="{{ .Title }}" />
-<meta name="application-name" content="{{ .Title }}" />
-<meta property="og:site_name" content="{{ .Site.Params.sitename }}" />
+<title itemprop="name">{{ .Title }} - {{ .Site.Title }}</title> 
+<meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}" />
+<meta name="twitter:title" content="{{ .Title }} - {{ .Site.Title }}" /> 
+<meta itemprop="name" content="{{ .Title }} - {{ .Site.Title }}" />
+<meta name="application-name" content="{{ .Title }} - {{ .Site.Title }}" />
+<meta property="og:site_name" content="{{ .Site.Title }}" />
 
 <!-- Descriptions of the page -->
 <meta name="description" content="{{ .Params.description }}" />

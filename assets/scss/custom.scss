@@ -1,7 +1,6 @@
 //Code Block Improvements
 pre {
-  background-color: $light !important;
-  // Using !important to override the inline style
+  background-color: $light !important; // !important to override inline style
   padding: 15px 5px 15px 15px;
 }
 

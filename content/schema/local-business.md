@@ -1,6 +1,6 @@
 ---
 title: "Local Business Schema"
-description: "Details about Local Business Schema."
+description: "Search engines now have a knowledge graph of all the relevant information like address, phone number, open hours about a business or an organization, this schema can get your business there."
 date: 2019-01-01 12:23:42 +0000
 schema: "Local Business"
 ---

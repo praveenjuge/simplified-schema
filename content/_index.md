@@ -1,5 +1,5 @@
 ---
-title: "Simplified Schema"
+title: "A list of example schemas for your pleasure."
 description: "A simple copy-pastable version of Schema.org's content."
 date: 2019-01-01 12:23:42 +0000
 ---

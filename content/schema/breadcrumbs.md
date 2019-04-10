@@ -1,6 +1,6 @@
 ---
 title: "Breadcrumbs Schema"
-description: "Details about Breadcrumbs Schema."
+description: "Breadcrumbs are a set of hierarchical webpage links that shows where the user is navigating. This schema is very useful for websites with lots of pages, category or choices, like e-commerce or recipe websites."
 date: 2019-01-01 12:23:42 +0000
 schema: "Breadcrumbs"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Job Posting Schema"
-description: "Details about Job Posting Schema."
+description: "An organization can post a job opening using this schema that would tell Google to list everything when an applicant searches for it. For example, 'IBM Jobs' would list all the available jobs on IBM's website."
 date: 2019-01-01 12:23:42 +0000
 schema: "Job Posting"
 ---

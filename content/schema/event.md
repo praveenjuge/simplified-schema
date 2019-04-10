@@ -1,6 +1,6 @@
 ---
 title: "Event Schema"
-description: "Details about Event Schema."
+description: "An event schema can be added to anything such as sports, concerts, lectures. You can come on search results for 'Events near me' if proper data is given. But don't self promote, just report the event."
 date: 2019-01-01 12:23:42 +0000
 schema: "Event"
 ---
