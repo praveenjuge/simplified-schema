@@ -1,6 +1,6 @@
 ---
 title: "Organization Schema"
-description: "Details about Organization Schema."
+description: "This schema is used to depict any corporation, clubs, NGO's, Educational Institute or any organization in general. You can get your organization details on a search engine's knowledge panel using this."
 date: 2019-01-01 12:23:42 +0000
 schema: "Organization"
 ---

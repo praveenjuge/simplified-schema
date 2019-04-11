@@ -37,6 +37,11 @@ We would love for you to contribute to this project and help make it even better
 
 Clone this repo and submit a Pull Request anytime!
 
+## Thanks to
+
+- [Hugo](https://gohugo.io/)
+- [Netlify](https://www.netlify.com/), For hosting this website
+
 ## License
 
 MIT

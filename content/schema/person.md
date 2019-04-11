@@ -1,6 +1,6 @@
 ---
 title: "Person Schema"
-description: "Details about Person Schema."
+description: "This schema is focused on an individual person on webpages, like team members, artist details, etc. You can also use this to get on search engine's knowledge panel but it's hard unless the person is well known."
 date: 2019-01-01 12:23:42 +0000
 schema: "Person"
 ---
