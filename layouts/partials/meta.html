@@ -13,8 +13,10 @@
 <meta name="twitter:description" content="{{ .Params.description }}" />
 
 <!-- Links of the page -->
-<link rel="canonical" href="{{ .Permalink }}" itemprop="url" /> <meta property="url" content="{{ .Permalink }}" />
-<meta property="og:url" content="{{ .Permalink }}" /> <meta name="url" content="{{ .Permalink }}" />
+<link rel="canonical" href="{{ .Permalink }}" itemprop="url" /> 
+<meta property="url" content="{{ .Permalink }}" />
+<meta property="og:url" content="{{ .Permalink }}" /> 
+<meta name="url" content="{{ .Permalink }}" />
 <meta name="twitter:url" content="{{ .Permalink }}" />
 
 <!-- Styles of the Page -->
@@ -27,9 +29,11 @@
 <meta name="twitter:image" content="{{ .Site.Params.ogimage | absURL }}" />
 
 <!-- Sitemap & RSS Feed Links -->
-<link rel="sitemap" type="application/xml" title="Sitemap" href="{{ .Site.BaseURL }}sitemap.xml" /> {{ if .RSSLink }}
-<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-<link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" /> {{ end }}
+<link rel="sitemap" type="application/xml" title="Sitemap" href="{{ .Site.BaseURL }}sitemap.xml" />
+{{ with .OutputFormats.Get "RSS" }}
+  <link href="{{ .Permalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
+  <link href="{{ .Permalink }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
+{{ end }}
 
 <!-- All Favicons -->
 <link rel="shortcut icon" href="/favicon.ico" />
@@ -46,10 +50,13 @@
 
 <!-- Static Meta -->
 <meta name="keywords" content="schema, json-ld, schema.org, SERP, microdata, Structured Data" />
-<meta name="twitter:card" content="summary_large_image" /> <meta name="twitter:site" content="@praveenjuge" />
-<meta name="twitter:creator" content="@praveenjuge" /> <meta name="theme-color" content="#031a6b" />
+<meta name="twitter:card" content="summary_large_image" /> 
+<meta name="twitter:site" content="@praveenjuge" />
+<meta name="twitter:creator" content="@praveenjuge" /> 
+<meta name="theme-color" content="#031a6b" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 <link rel="manifest" href="{{ .Site.BaseURL }}manifest.json" />
 
-<meta name="robots" content="index,follow" /> <meta name="googlebot" content="index,follow" />
+<meta name="robots" content="index,follow" /> 
+<meta name="googlebot" content="index,follow" />
