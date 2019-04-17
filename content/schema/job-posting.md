@@ -14,7 +14,8 @@ schema: "Job Posting"
 
   <p>
     <strong>Description:</strong>
-    <span itemprop="description">In this class you will teach students how to magically defend themselves against Dark Creatures, the Dark Arts, and other dark charms.</span>
+    <span itemprop="description">In this class you will teach students how to
+    magically defend themselves against Dark Creatures, the Dark Arts, and other dark charms.</span>
   </p>
   
   <p itemprop="jobLocation" itemscope itemtype="http://schema.org/Place">
@@ -71,7 +72,8 @@ schema: "Job Posting"
     "@context" : "https://schema.org/",
     "@type" : "JobPosting",
     "title" : "Defence Against the Dark Arts Teacher",
-    "description" : "In this class you will teach students how to magically defend themselves against Dark Creatures, the Dark Arts, and other dark charms.",
+    "description" : "In this class you will teach students how to magically
+     defend themselves against Dark Creatures, the Dark Arts, and other dark charms.",
     "datePosted" : "2019-01-30T13:35:03+0200",
     "validThrough" : "2019-02-28T13:35:03+0200",
     "employmentType" : "FULL_TIME", // Case Sensitive, Full List Below

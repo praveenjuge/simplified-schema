@@ -1,17 +1,16 @@
 ---
 title: "Product Schema"
-description: "Details about Product Schema."
+description: "This can be useful for any physical or virtual product that is available on your webpage. You can give a lot of information about your product to display on search engines. A must-have for E-commerce based websites."
 date: 2019-01-01 12:23:42 +0000
 schema: "Product"
 ---
-
 
 ## Microdata
 ---
 
 ```html
 <div itemscope itemtype="http://schema.org/Product">
-  <meta itemprop="sku" content="123456">
+  <meta itemprop="sku" content="123456"> <!-- Stock Keeping Unit - Optional -->
   
   <h2 itemprop="name">The One Ring</h2>
   <img itemprop="image" src="https://example.com/onering/photo.jpg" alt='A Golden Ring with Engraving on its sides.' />
