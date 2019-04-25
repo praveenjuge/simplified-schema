@@ -1,10 +1,9 @@
 ---
 title: "Recipe Schema"
-description: "Details about Recipe Schema."
+description: "If you have a cooking-based website then this schema is a must. This is widely used on assistant devices such as Google Home, so make sure your recipe is readable by a robot."
 date: 2019-01-01 12:23:42 +0000
 schema: "Recipe"
 ---
-
 
 ## Microdata
 ---

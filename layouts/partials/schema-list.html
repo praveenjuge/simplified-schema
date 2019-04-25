@@ -1,7 +1,7 @@
 {{ $currentpage := .Params.schema }}
 <nav class="list-group" role="navigation" id="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
   {{ range $index, $list:= where .Site.RegularPages "Section" "schema" }}
-    <a href="{{.Permalink}}" role="button" itemprop="url" tabindex="{{ add $index 3 }}" class="list-group-item list-group-item-action {{ if eq $currentpage .Params.schema }}active{{ end }}">
+    <a href="{{.Permalink}}" role="button" itemprop="url" class="list-group-item list-group-item-action {{ if eq $currentpage .Params.schema }}active{{ end }}">
       <span itemprop="name">{{ .Params.schema }}</span>
       {{ if eq $currentpage .Params.schema }}
         <span class="sr-only">Current Page</span>

@@ -14,9 +14,9 @@
 
       {{ end }}
     </main>
+    {{ partial "footer" . }}
+    
     <!-- Using partialCached because the content in the partial will not change on any page https://gohugo.io/functions/partialcached/ -->
-    {{ partialCached "footer" . }}
-
     {{ partialCached "googleanalytics" . }}
   </body>
 </html>

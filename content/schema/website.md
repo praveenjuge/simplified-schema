@@ -1,6 +1,6 @@
 ---
 title: "Website Schema"
-description: "Details about Website Schema."
+description: "This schema is for providing additional meta information about your website to search engines, this schema can be used on all your webpages or on the homepage only."
 date: 2019-01-01 12:23:42 +0000
 schema: "Website"
 ---
