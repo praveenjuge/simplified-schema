@@ -6,15 +6,15 @@ date: 2019-01-01 12:23:42 +0000
 
 # About this Site
 ---
-We made this site so that we can easily use Structured Data content for every website we make.
+I made this site so that I can easily use Structured Data content for every website I make.
 
-We would love for you to contribute what you know about Schema. You can make a pull request in this [Github Repo](https://github.com/praveenjuge/simplified-schema/). All the Schema content is in Markdown format located at `content/schema` folder.
+I would love for you to contribute what you know about Schema. You can make a pull request in this [Github Repo](https://github.com/praveenjuge/simplified-schema/). All the Schema content is in Markdown format located at `content/schema` folder.
 
-Lots of testing has been done on the Schema available on this site but we could be wrong in some places. If you find any errors you can easily raise a [GitHub issue here](https://github.com/praveenjuge/simplified-schema/issues/).
+Lots of testing has been done on the Schema available on this site but I could be wrong in some places. If you find any errors you can easily raise a [GitHub issue here](https://github.com/praveenjuge/simplified-schema/issues/).
 
 #### On Privacy
 ---
-We use Google Analytics ([Google's Privacy Policy](https://www.google.com/analytics/terms/us.html)) to know which pages everyone uses the most and to improve the most used pages. We definitely **don't** share or sell any of this information. 
+I use Google Analytics ([Google's Privacy Policy](https://www.google.com/analytics/terms/us.html)) to know which pages everyone uses the most and to improve the most used pages. I definitely **don't** share or sell any of this information. 
 
 #### This site is made using,
 ---
