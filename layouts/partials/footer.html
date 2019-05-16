@@ -4,7 +4,7 @@
       {{ with.GitInfo }}
         <a href="{{ $.Site.Params.ghrepo }}commit/{{ .Hash }}">{{ .Subject }} ({{ .AbbreviatedHash }})</a>
       {{ end }}
-      <a href="{{.Site.Params.ghrepo}}edit/master/content/{{.File.Path}}">Improve this page</a>
+      <a href="{{.Site.Params.ghrepo}}edit/master/content/{{ with .File }}{{ .Path }}{{ end }}">Improve this page</a>
     </span> -->
     <div>
       <p class="text-info mb-0">This page was last updated on {{ .Lastmod.Format "Jan 02 2006" }}</p>

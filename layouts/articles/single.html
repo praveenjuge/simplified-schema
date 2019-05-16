@@ -1,26 +1,43 @@
 {{ define "main" }}
 
-<article itemscope itemtype="http://schema.org/Article" class="container my-5 py-5 text-article">
+  <article itemscope itemtype="http://schema.org/Article" class="container my-5 pt-5 text-article">
 
-  <div class="row justify-content-center">
-    <div class="col-md-7 col-sm-12">
-      <h1 itemprop="headline" class="mb-3">{{ .Title }}</h1>
+    <div class="row justify-content-center">
+      <div class="col-md-7 col-sm-12">
+        <h1 itemprop="headline" class="mb-3">{{ .Title }}</h1>
 
-      <p class="text-muted">
-        <time datetime="{{ .Params.Date }}" itemprop="datePublished" pubdate>{{ dateFormat "January, 2 2006" .Params.Date }}</time>
-        <span itemprop="author" itemscope itemtype="http://schema.org/Person">by
-          <a itemprop="sameAs" rel="author" href="https://twitter.com/praveenjuge/" target="_blank">
-            <span itemprop="name">Praveen Juge</span>
-          </a>
-        </span>
-      </p>
-      
-      <div itemprop="articleBody" class="text-wrap">{{ .Content }}</div>
-      
-      <link itemprop="mainEntityOfPage" href="{{ .Permalink }}" />
-
+        <p class="text-muted mb-5">
+          <time datetime="{{ .Params.Date }}" itemprop="datePublished" pubdate>{{ dateFormat "January, 2 2006" .Params.Date }}</time>
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person">by
+            <a itemprop="sameAs" rel="author" href="https://twitter.com/praveenjuge/" target="_blank">
+              <span itemprop="name">Praveen Juge</span>
+            </a>
+          </span>
+        </p>
+        
+        <div itemprop="articleBody" class="text-wrap">
+          {{ .Content }}
+        </div>
+        
+        <link itemprop="mainEntityOfPage" href="{{ .Permalink }}" />
+      </div>
+    </div>
+    
+  </article>
+  
+  <div class="container pb-5">
+    <div class="row justify-content-center">
+      <div class="col-md-7 col-sm-12">
+        {{ with .File }}
+          <div class="alert alert-info mb-3" role="alert">
+            Something wrong? You can edit this page
+            <a href="{{ $.Site.Params.ghrepo }}edit/master/content/{{ .Path }}" class="alert-link">here</a>.
+          </div>
+        {{ end }}
+        <a href="/articles/" class="card card-body text-decoration-none">
+          ← See more articles
+        </a>
+      </div>
     </div>
   </div>
-
-</article>
 {{ end }}

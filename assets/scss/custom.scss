@@ -46,3 +46,9 @@ pre {
     font-size: 3rem;
   }
 }
+
+a.card{
+  &:hover{
+    @extend .shadow-sm;
+  }
+}

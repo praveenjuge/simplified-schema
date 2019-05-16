@@ -7,10 +7,12 @@
         <p class="mb-0 text-muted">{{ .Description }}</p>
       </div>
       <div class="text-wrap">{{ .Content }}</div>
-      <div class="alert alert-info my-5" role="alert">
-        Anything missing? You can edit this page
-        <a href="{{.Site.Params.ghrepo}}edit/master/content/{{.File.Path}}" class="alert-link">here</a>.
-      </div>
+      {{ with .File }}
+        <div class="alert alert-info my-5" role="alert">
+          Anything missing? You can edit this page
+          <a href="{{ $.Site.Params.ghrepo }}edit/master/content/{{ .Path }}" class="alert-link">here</a>.
+        </div>
+      {{ end }}
     </div>
     <div class="col-md-3 col-sm-12">
       <div class="sticky-top py-5">
