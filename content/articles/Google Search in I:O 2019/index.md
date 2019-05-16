@@ -11,9 +11,9 @@ Lots of new stuff announced for SEO announced this year at I/O ranging from Stru
 
 ### Googlebot now crawls Javascript sites 🎉
 
-The Googlebot (which crawls all your webpages for content) will use the **latest Chromium** rendering engine. If you, like me, had reservations for using javascripts frameworks like [Gatsby.js](https://www.gatsbyjs.org/) or [Gridsome](https://gridsome.org/) in fear of bad SEO, now is the time to get on it. 
+The Googlebot (which crawls all your webpages for content) will use the **latest Chromium** rendering engine. If you, like me, had reservations for using javascript frameworks like [Gatsby.js](https://www.gatsbyjs.org/) or [Gridsome](https://gridsome.org/) in fear of bad SEO, now is the time to get on it. 
 
-I tested some pages with heavy javascript using Gatsby.js which Google indexed perfectly. And the bot will also regularly update its rendering engine to match latest Chromium.
+I tested some pages with heavy javascript using Gatsby.js which Google indexed perfectly. And the bot will also regularly update its rendering engine to match the latest Chromium.
 
 <details>
   <summary>See the announcement video</summary>
