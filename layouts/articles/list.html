@@ -1,22 +1,21 @@
 {{ define "main" }}
 <div class="py-5 mb-4 bg-light">
   <div class="container text-center">
-    <h1 class="text-primary display-5">{{ .Title }}</h1>
+    <h1>{{ .Title }}</h1>
     <p class="mb-3 text-muted">{{ .Description }}</p>
   </div>
 </div>
 <section class="container">
   <div class="row justify-content-center">
-    <div class="col-md-12 col-lg-7 my-5 py-3">
+    <div class="col-md-12 col-lg-7 my-5">
       {{ $paginator := .Paginate (where .Pages "Section" "articles") }}
         {{ range $paginator.Pages }}
-          <a href="{{ .Permalink }}" class="text-decoration-none card card-body mb-3">
+          <a href="{{ .Permalink }}" class="text-decoration-none card card-body my-3">
             <h3 title="{{ .Title }}">{{ .Title }}</h3>
-            <p class="text-muted mb-2">{{ .Description }}</p>
             <p class="text-muted mb-0">
-              <time datetime="{{ .Params.Date }}" itemprop="datePublished" pubdate>{{ dateFormat "January, 2 2006" .Params.Date }}</time>
-              <span itemprop="author" itemscope itemtype="http://schema.org/Person">by Praveen Juge
-              </span>
+              <time datetime="{{ .Params.Date }}" itemprop="datePublished" pubdate>{{ dateFormat "January 2, 2006" .Params.Date }}</time>
+               · 
+              {{ .Description }}
             </p>
           </a>
         {{ end }}

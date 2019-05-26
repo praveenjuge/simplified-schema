@@ -4,7 +4,7 @@
 
     <div class="row justify-content-center">
       <div class="col-md-7 col-sm-12">
-        <h1 itemprop="headline" class="mb-3">{{ .Title }}</h1>
+        <h1 itemprop="headline" class="display-4 mb-3" title="{{ .Title }}">{{ .Title }}</h1>
 
         <p class="text-muted mb-5">
           <time datetime="{{ .Params.Date }}" itemprop="datePublished" pubdate>{{ dateFormat "January 2, 2006" .Params.Date }}</time>
@@ -29,10 +29,9 @@
     <div class="row justify-content-center">
       <div class="col-md-7 col-sm-12">
         {{ with .File }}
-          <div class="alert alert-info mb-3" role="alert">
-            Something wrong? You can edit this page
-            <a href="{{ $.Site.Params.ghrepo }}edit/master/content/{{ .Path }}" class="alert-link">here</a>.
-          </div>
+          <a href="{{ $.Site.Params.ghrepo }}edit/master/content/{{ .Path }}" class="alert alert-info d-block mb-3 text-decoration-none" target="_blank" role="alert">
+            Something wrong? You can edit this page <b>here</b>.
+          </a>
         {{ end }}
         <a href="/articles/" class="card card-body text-decoration-none">
           ← See more articles

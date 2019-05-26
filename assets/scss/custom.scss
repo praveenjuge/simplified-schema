@@ -36,18 +36,14 @@ pre {
   // }
 }
 
-
 .text-article{
   a{
     @extend .text-decoration-none;
     border-bottom: 2px solid $blue;
   }
-  h1{
-    font-size: 3rem;
-  }
 }
 
-a.card{
+a.card, a.alert{
   &:hover{
     @extend .shadow-sm;
   }
