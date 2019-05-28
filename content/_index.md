@@ -4,11 +4,6 @@ description: "A simple copy-pastable version of Schema.org's content."
 date: 2019-01-01 12:23:42 +0000
 ---
 
-## Schema.org Markup
----
-
-Schema.org (often called Schema) is a semantic vocabulary of tags (or microdata) that you can add to your HTML to improve the way search engines read and represent your page in SERPs.
-
 ## What is Schema.org Structured Data?
 ---
 

@@ -87,6 +87,11 @@ The above markup is a little opinionated but it's a very good starting point for
 </script>
 ```
 
+## How it might look
+---
+
+![Article Schema in action with Search Results for 'taylor swift'](/images/schemas/article-schema.png "Article Schema in action with Search Results for 'taylor swift'")
+
 ## Usage Guidelines
 ---
 *Coming Soon!*

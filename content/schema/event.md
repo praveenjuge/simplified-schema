@@ -101,6 +101,11 @@ schema: "Event"
 </script>
 ```
 
+## How it might look
+---
+
+![Events in action with search results for 'events in new york'](/images/schemas/events-schema.png "Events in action with search results for 'events in new york'")
+
 ## Usage Guidelines
 ---
 

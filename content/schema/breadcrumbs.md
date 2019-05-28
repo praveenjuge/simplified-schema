@@ -56,6 +56,13 @@ schema: "Breadcrumbs"
 </script>
 ```
 
+## How it might look
+---
+
+Take a look at the breadcrumbs above the search results
+
+![Breadcrumbs in action with search results for 'taylor swift'](/images/schemas/breadcrumbs-schema.png "Breadcrumbs in action with search results for 'taylor swift'")
+
 ## Usage Guidelines
 ---
 
