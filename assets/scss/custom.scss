@@ -31,6 +31,11 @@ pre {
     max-width: 100%;
   }
 
+  details summary {
+    @extend .text-primary;
+    @extend .mb-2;
+  }
+
   // table {
   //   @extend .table, .table-bordered;
   // }

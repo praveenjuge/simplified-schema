@@ -154,3 +154,9 @@ schema: "Local Business"
 ---
 
 *Coming Soon!*
+
+
+## How it might look
+---
+
+![Local Business Schema with search results for 'Le Bernardin'](/images/schemas/local-business-schema.jpg "Local Business Schema with search results for 'Le Bernardin'")

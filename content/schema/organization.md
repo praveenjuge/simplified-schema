@@ -70,3 +70,9 @@ schema: "Organization"
 ---
 
 *Coming Soon!*
+
+
+## How it might look
+---
+
+![Organization Schema with search results for 'ibm'](/images/schemas/organization-schema.png "Organization Schema with search results for 'ibm'")

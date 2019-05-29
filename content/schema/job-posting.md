@@ -121,5 +121,10 @@ For `employmentType` you can choose one of the values below. The value should be
 - PER_DIEM
 - OTHER
 
-
 *More Info Coming Soon!*
+
+
+## How it might look
+---
+
+![Job Posting Schema with search results for 'ibm jobs'](/images/schemas/job-posting-schema.png "Job Posting Schema with search results for 'ibm jobs'")
