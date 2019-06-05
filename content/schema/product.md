@@ -6,7 +6,6 @@ schema: "Product"
 ---
 
 ## Microdata
----
 
 ```html
 <div itemscope itemtype="http://schema.org/Product">
@@ -60,7 +59,6 @@ schema: "Product"
 ```
 
 ## Json-ld
----
 
 ```html
 <script type="application/ld+json">
@@ -128,7 +126,6 @@ schema: "Product"
 ```
 
 ## Usage Guidelines
----
 
 For offers `itemCondition` you can choose one of the values below. The value should be case sensitive if you want it to work on Google.
 
@@ -138,3 +135,7 @@ For offers `itemCondition` you can choose one of the values below. The value sho
 - https://schema.org/UsedCondition
 
 *More Info Coming Soon!*
+
+## How it might look
+
+![Product Schema with search results for 'harry potter box set'](/images/schemas/product-schema.png "Product Schema with search results for 'harry potter box set'")

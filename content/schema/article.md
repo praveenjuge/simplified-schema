@@ -6,7 +6,6 @@ schema: "Article"
 ---
 
 ## Microdata
----
 
 ```html
 <article itemscope itemtype="http://schema.org/Article">
@@ -51,7 +50,6 @@ schema: "Article"
 The above markup is a little opinionated but it's a very good starting point for article schema. If for some reason you can't use the microdata format described above, I recommend you to use the JSON-LD below.
 
 ## Json-ld
----
 
 ```html
 <script defer type="application/ld+json">
@@ -87,11 +85,9 @@ The above markup is a little opinionated but it's a very good starting point for
 </script>
 ```
 
+## Usage Guidelines
+*Coming Soon!*
+
 ## How it might look
----
 
 ![Article Schema in action with Search Results for 'taylor swift'](/images/schemas/article-schema.png "Article Schema in action with Search Results for 'taylor swift'")
-
-## Usage Guidelines
----
-*Coming Soon!*

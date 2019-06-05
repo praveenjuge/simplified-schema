@@ -6,7 +6,6 @@ schema: "Recipe"
 ---
 
 ## Microdata
----
 
 ```html
 <div itemscope itemtype="http://schema.org/Recipe">
@@ -77,7 +76,6 @@ schema: "Recipe"
 ```
 
 ## Json-ld
----
 
 ```html
 <script type="application/ld+json">
@@ -177,8 +175,12 @@ This amazing recipe is from [geekychef](http://www.geekychef.com/2008/12/butterb
 
 
 ## Usage Guidelines
----
 
 - Learn more about writing different time periods [here](https://en.wikipedia.org/wiki/ISO_8601#Durations).
 
 *More Info Coming Soon!*
+
+
+## How it might look
+
+![Recipe Schema with search results for 'harry potter butterbeer recipe'](/images/schemas/recipe-schema.png "Recipe Schema with search results for 'harry potter butterbeer recipe'")

@@ -6,7 +6,6 @@ schema: "Website"
 ---
 
 ## Microdata
----
 
 ```html
 <div itemscope itemtype="http://schema.org/WebSite">
@@ -22,7 +21,6 @@ schema: "Website"
 
 
 ## Json-ld
----
 
 ```html
 <script type="application/ld+json">
@@ -47,6 +45,9 @@ schema: "Website"
 ```
 
 ## Usage Guidelines
----
 
 *Coming Soon!*
+
+## How it might look
+
+![Website Schema with search results for 'flipkart'](/images/schemas/website-schema.png "Website Schema with search results for 'flipkart'")

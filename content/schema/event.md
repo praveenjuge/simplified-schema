@@ -6,7 +6,6 @@ schema: "Event"
 ---
 
 ## Microdata
----
 
 ```html
 <div itemscope itemtype="http://schema.org/Event">
@@ -54,7 +53,6 @@ schema: "Event"
 
 
 ## Json-ld
----
 
 ```html
 <script type="application/ld+json">
@@ -101,12 +99,11 @@ schema: "Event"
 </script>
 ```
 
-## How it might look
----
-
-![Events in action with search results for 'events in new york'](/images/schemas/events-schema.png "Events in action with search results for 'events in new york'")
-
 ## Usage Guidelines
----
 
 *Coming Soon!*
+
+
+## How it might look
+
+![Events in action with search results for 'events in new york'](/images/schemas/events-schema.png "Events in action with search results for 'events in new york'")

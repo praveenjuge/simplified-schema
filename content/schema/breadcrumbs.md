@@ -6,7 +6,6 @@ schema: "Breadcrumbs"
 ---
 
 ## Microdata
----
 
 ```html
 <nav aria-label="breadcrumb">
@@ -28,7 +27,6 @@ schema: "Breadcrumbs"
 ```
 
 ## Json-ld
----
 
 ```html
 <script type="application/ld+json">
@@ -56,14 +54,13 @@ schema: "Breadcrumbs"
 </script>
 ```
 
+## Usage Guidelines
+
+*Coming Soon!*
+
+
 ## How it might look
----
 
 Take a look at the breadcrumbs above the search results
 
 ![Breadcrumbs in action with search results for 'taylor swift'](/images/schemas/breadcrumbs-schema.png "Breadcrumbs in action with search results for 'taylor swift'")
-
-## Usage Guidelines
----
-
-*Coming Soon!*

@@ -6,7 +6,6 @@ schema: "Job Posting"
 ---
 
 ## Microdata
----
 
 ```html
 <div itemscope itemtype="http://schema.org/JobPosting">
@@ -64,7 +63,6 @@ schema: "Job Posting"
 ```
 
 ## Json-ld
----
 
 ```html
 <script type="application/ld+json">
@@ -108,7 +106,6 @@ schema: "Job Posting"
 ```
 
 ## Usage Guidelines
----
 
 For `employmentType` you can choose one of the values below. The value should be case sensitive if you want it to work on Google.
 
@@ -125,6 +122,5 @@ For `employmentType` you can choose one of the values below. The value should be
 
 
 ## How it might look
----
 
 ![Job Posting Schema with search results for 'ibm jobs'](/images/schemas/job-posting-schema.png "Job Posting Schema with search results for 'ibm jobs'")

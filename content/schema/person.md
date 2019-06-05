@@ -6,7 +6,6 @@ schema: "Person"
 ---
 
 ## Microdata
----
 
 ```html
 <div itemscope itemtype="http://schema.org/Person">
@@ -29,7 +28,6 @@ schema: "Person"
 ```
 
 ## Json-ld
----
 
 ```html
 <script type="application/ld+json">
@@ -57,6 +55,9 @@ schema: "Person"
 ```
 
 ## Usage Guidelines
----
 
 *Coming Soon!*
+
+## How it might look
+
+![Person Schema with search results for 'chris coyier'](/images/schemas/person-schema.jpg "Person Schema with search results for 'chris coyier'")

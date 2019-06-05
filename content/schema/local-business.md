@@ -6,7 +6,6 @@ schema: "Local Business"
 ---
 
 ## Microdata
----
 
 ```html
 <div itemscope itemtype="http://schema.org/LocalBusiness">
@@ -24,7 +23,6 @@ schema: "Local Business"
 ```
 
 ## Json-ld
----
 
 ```html
 <script type="application/ld+json">
@@ -54,7 +52,6 @@ schema: "Local Business"
 
 
 ## Microdata (For Restaurants)
----
 
 ```html
 <div itemscope itemtype="http://schema.org/Restaurant">
@@ -89,7 +86,6 @@ schema: "Local Business"
 ```
 
 ## Json-ld (For Restaurants)
----
 
 ```html
 <script type="application/ld+json">
@@ -151,12 +147,10 @@ schema: "Local Business"
 ```
 
 ## Usage Guidelines
----
 
 *Coming Soon!*
 
 
 ## How it might look
----
 
 ![Local Business Schema with search results for 'Le Bernardin'](/images/schemas/local-business-schema.jpg "Local Business Schema with search results for 'Le Bernardin'")

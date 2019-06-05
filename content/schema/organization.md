@@ -6,7 +6,6 @@ schema: "Organization"
 ---
 
 ## Microdata
----
 
 ```html
 <div itemscope itemtype="http://schema.org/Organization">
@@ -34,7 +33,6 @@ schema: "Organization"
 ```
 
 ## Json-ld
----
 
 ```html
 <script type="application/ld+json">
@@ -67,12 +65,10 @@ schema: "Organization"
 ```
 
 ## Usage Guidelines
----
 
 *Coming Soon!*
 
 
 ## How it might look
----
 
 ![Organization Schema with search results for 'ibm'](/images/schemas/organization-schema.png "Organization Schema with search results for 'ibm'")
